@@ -114,13 +114,13 @@ class Main{
 					
 					}
 					if(a1.equals("O") && a2.equals("O") && a3.equals("O")
-					|| b1.equals("0") && b2.equals("0") && b3.equals("0")
-					|| c1.equals("0") && c2.equals("0") && c2.equals("0")
-					|| a1.equals("0") && b1.equals("0") && c1.equals("0")
-					|| a2.equals("0") && b2.equals("0") && c2.equals("0")
-					|| a3.equals("0") && b3.equals("0") && c3.equals("0")
-					|| a1.equals("0") && b2.equals("0") && c3.equals("0")
-					|| a3.equals("0") && b2.equals("0") && c1.equals("0")
+					|| b1.equals("O") && b2.equals("O") && b3.equals("O")
+					|| c1.equals("O") && c2.equals("O") && c2.equals("O")
+					|| a1.equals("O") && b1.equals("O") && c1.equals("O")
+					|| a2.equals("O") && b2.equals("v") && c2.equals("O")
+					|| a3.equals("O") && b3.equals("O") && c3.equals("O")
+					|| a1.equals("O") && b2.equals("O") && c3.equals("O")
+					|| a3.equals("O") && b2.equals("O") && c1.equals("O")
 					|| a1.equals("X") && a2.equals("X") && a3.equals("X")
 					|| b1.equals("X") && b2.equals("X") && b3.equals("X")
 					|| c1.equals("X") && c2.equals("X") && c2.equals("X")
@@ -139,13 +139,13 @@ class Main{
 	
 	//勝利判定
 	if(a1.equals("O") && a2.equals("O") && a3.equals("O")
-			|| b1.equals("0") && b2.equals("0") && b3.equals("0")
-			|| c1.equals("0") && c2.equals("0") && c2.equals("0")
-			|| a1.equals("0") && b1.equals("0") && c1.equals("0")
-			|| a2.equals("0") && b2.equals("0") && c2.equals("0")
-			|| a3.equals("0") && b3.equals("0") && c3.equals("0")
-			|| a1.equals("0") && b2.equals("0") && c3.equals("0")
-			|| a3.equals("0") && b2.equals("0") && c1.equals("0")){
+			|| b1.equals("O") && b2.equals("O") && b3.equals("O")
+			|| c1.equals("O") && c2.equals("O") && c2.equals("O")
+			|| a1.equals("O") && b1.equals("O") && c1.equals("O")
+			|| a2.equals("O") && b2.equals("O") && c2.equals("O")
+			|| a3.equals("O") && b3.equals("O") && c3.equals("O")
+			|| a1.equals("O") && b2.equals("O") && c3.equals("O")
+			|| a3.equals("O") && b2.equals("O") && c1.equals("O")){
 		System.out.println("貴方が勝利しました");
 
 	}else if(a1.equals("X") && a2.equals("X") && a3.equals("X")
@@ -212,13 +212,13 @@ class Main{
 				}else {System.out.println("正常な入力ではありません");}		
 				
 				if(a1.equals("O") && a2.equals("O") && a3.equals("O")
-				|| b1.equals("0") && b2.equals("0") && b3.equals("0")
-				|| c1.equals("0") && c2.equals("0") && c2.equals("0")
-				|| a1.equals("0") && b1.equals("0") && c1.equals("0")
-				|| a2.equals("0") && b2.equals("0") && c2.equals("0")
-				|| a3.equals("0") && b3.equals("0") && c3.equals("0")
-				|| a1.equals("0") && b2.equals("0") && c3.equals("0")
-				|| a3.equals("0") && b2.equals("0") && c1.equals("0")
+				|| b1.equals("O") && b2.equals("O") && b3.equals("O")
+				|| c1.equals("O") && c2.equals("O") && c2.equals("O")
+				|| a1.equals("O") && b1.equals("O") && c1.equals("O")
+				|| a2.equals("O") && b2.equals("O") && c2.equals("O")
+				|| a3.equals("O") && b3.equals("O") && c3.equals("O")
+				|| a1.equals("O") && b2.equals("O") && c3.equals("O")
+				|| a3.equals("O") && b2.equals("O") && c1.equals("O")
 				|| a1.equals("X") && a2.equals("X") && a3.equals("X")
 				|| b1.equals("X") && b2.equals("X") && b3.equals("X")
 				|| c1.equals("X") && c2.equals("X") && c2.equals("X")
@@ -237,13 +237,13 @@ System.out.println(c1 + c2 + c3);
 
 //勝利判定
 if(a1.equals("O") && a2.equals("O") && a3.equals("O")
-		|| b1.equals("0") && b2.equals("0") && b3.equals("0")
-		|| c1.equals("0") && c2.equals("0") && c2.equals("0")
-		|| a1.equals("0") && b1.equals("0") && c1.equals("0")
-		|| a2.equals("0") && b2.equals("0") && c2.equals("0")
-		|| a3.equals("0") && b3.equals("0") && c3.equals("0")
-		|| a1.equals("0") && b2.equals("0") && c3.equals("0")
-		|| a3.equals("0") && b2.equals("0") && c1.equals("0")){
+		|| b1.equals("O") && b2.equals("O") && b3.equals("O")
+		|| c1.equals("O") && c2.equals("O") && c2.equals("O")
+		|| a1.equals("O") && b1.equals("O") && c1.equals("O")
+		|| a2.equals("O") && b2.equals("O") && c2.equals("O")
+		|| a3.equals("O") && b3.equals("O") && c3.equals("O")
+		|| a1.equals("O") && b2.equals("O") && c3.equals("O")
+		|| a3.equals("O") && b2.equals("O") && c1.equals("O")){
 	System.out.println("貴方が勝利しました");
 
 }else if(a1.equals("X") && a2.equals("X") && a3.equals("X")
